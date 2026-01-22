@@ -14,7 +14,10 @@ Bu hassas ayar sayesinde, tıbbi görüntü teşhisinde kritik olan hata paylar�
 Projenin en güçlü mühendislik kısmı, modellerin farklı klinik ortamlarına uyum sağlama yeteneğidir:
 Süreç: Modeller önce BUSI veri setiyle eğitilmiş, ardından bu ön-bilgiler kullanılarak farklı cihazlardan alınan BUS-UCLM veri setine uyarlanmıştır.
 Sonuç: Bu strateji sayesinde, kısıtlı veriye sahip klinik ortamlarda bile yüksek genelleme kapasitesi elde edilmiştir.
-
+📊 VERİ SETLERİ VE DAĞILIMI
+Çalışma kapsamında toplamda 7.000'den fazla görüntü ile modeller beslenmiştir:
+BUSI (Breast Ultrasound Images): 780 orijinal görüntüden oluşan ana veri setidir. Veri artırma (Data Augmentation) teknikleri ile bu sayı 7.031 görüntüye çıkarılarak sınıflar arası denge sağlanmıştır.
+BUS-UCLM: Modellerin alan uyarlaması yeteneğini ölçmek için kullanılan, 38 farklı hastadan elde edilen 683 orijinal görüntüden oluşan ikincil veri setidir.
 
 📊 KULLANILAN MİMARİLER VE PERFORMANS
 Evrişimli Sinir Ağları (CNN) - Transfer Learning
