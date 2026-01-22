@@ -1,0 +1,11 @@
+tensorflow>=2.12.0
+keras>=2.12.0
+torch>=2.0.0
+torchvision
+timm>=0.9.0
+gradio
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
